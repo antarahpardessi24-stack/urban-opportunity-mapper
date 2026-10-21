@@ -1,0 +1,38 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node.js dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Keep raw datasets out of GitHub
+/data/raw/
